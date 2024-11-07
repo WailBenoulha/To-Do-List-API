@@ -20,3 +20,12 @@ class CustomUser(AbstractBaseUser, PermissionsMixin):
 
     def __str__(self):
         return self.email
+
+class Task(models.Model):
+    title = models.CharField(max_length=255)
+    description = models.TextField()
+    status = models.BooleanField(default=False)
+    owner = models.ForeignKey(CustomUser,on_delete=models.CASCADE,related_name='owner')
+
+    def __str__(self):
+        return self.title

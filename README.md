@@ -5,6 +5,8 @@ The application is designed with DRF to handle full Create, Read, Update, and De
 
 # JWT Authentication: 
 Secure user authentication is implemented using JSON Web Tokens (JWT), allowing users to register, log in, and manage their to-do items while ensuring session security.
+![1_i8N6u2G7l_SaOB1O2tPgIw](https://github.com/user-attachments/assets/7d9d02ad-c39e-4a19-bce6-8e5574bcca60)
+
 
 # PostgreSQL Database: 
 The application leverages PostgreSQL as its database, providing reliable and efficient data storage and retrieval.

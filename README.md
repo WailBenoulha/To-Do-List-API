@@ -1,5 +1,11 @@
 # To-Do-List-API
-This project is a To-Do List application built using Django Rest Framework (DRF) with full CRUD functionality and JWT-based authentication. Key features include:
+This project is a To-Do List application built using Django Rest Framework (DRF) with full CRUD functionality and JWT-based authentication. 
+While the previous project only focused on the main CRUD operations, here we’ll add some more interesting responsibilities, such as:
+An authentication logic, which means you’ll have to keep a new table of users and their credentials
+You’ll have to create both users and tasks.
+You’ll also have to be able to update tasks (their status) and even delete them.
+Get a list of tasks, filter them by status and get the details of each one.
+Key features include:
 
 ![Screenshot (89)](https://github.com/user-attachments/assets/7193e7c7-83bd-442e-bde3-17ba725faf55)
 

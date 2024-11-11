@@ -1,6 +1,7 @@
 # To-Do-List-API
 This project is a To-Do List application built using Django Rest Framework (DRF) with full CRUD functionality and JWT-based authentication. Key features include:
-#Comprehensive API: The application is designed with DRF to handle full Create, Read, Update, and Delete (CRUD) operations for to-do items, ensuring robust management of tasks.
+# Comprehensive API:  
+The application is designed with DRF to handle full Create, Read, Update, and Delete (CRUD) operations for to-do items, ensuring robust management of tasks.
 
 JWT Authentication: Secure user authentication is implemented using JSON Web Tokens (JWT), allowing users to register, log in, and manage their to-do items while ensuring session security.
 
